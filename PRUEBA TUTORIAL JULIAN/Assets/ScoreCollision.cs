@@ -4,21 +4,9 @@ using UnityEngine;
 
 public class ScoreCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnCollisionEnter(Collision collision)
    {
-     if(collision.transform.name == "SueloBolo")
+     if(collision.transform.name == "ColisionBolos")
      {
         bolosScore.Score += 5;
      }
