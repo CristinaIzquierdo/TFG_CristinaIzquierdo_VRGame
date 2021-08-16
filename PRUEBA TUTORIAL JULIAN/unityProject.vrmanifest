@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.pruebatutorialjulian.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "F:\\recursosVR\\projectosYaHechos\\BowlingVR\\VRBowling-master\\PRUEBA TUTORIAL JULIAN\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "PRUEBA TUTORIAL JULIAN [Testing]"
+        }
+      }
+    }
+  ]
+}
