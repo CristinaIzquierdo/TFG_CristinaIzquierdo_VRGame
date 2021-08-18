@@ -48,6 +48,7 @@
      <Compile Include="Assets\Bowling Kegel &amp; Ball\Resources\Materials\PRUEBA BOWLING\bowling-master 1\Bowling\Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Bowling Kegel &amp; Ball\Resources\Materials\PRUEBA BOWLING\bowling-master 1\Bowling\Assets\Scripts\MainCamera.cs" />
      <Compile Include="Assets\KeepScore.cs" />
+     <Compile Include="Assets\LineRendererSettings.cs" />
      <Compile Include="Assets\ScoreCollision.cs" />
      <Compile Include="Assets\bolosScore.cs" />
      <Compile Include="Assets\puntosArcoTexto.cs" />
