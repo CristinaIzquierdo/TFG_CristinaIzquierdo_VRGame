@@ -51,6 +51,7 @@
      <Compile Include="Assets\LineRendererSettings.cs" />
      <Compile Include="Assets\ScoreCollision.cs" />
      <Compile Include="Assets\bolosScore.cs" />
+     <Compile Include="Assets\changeSceneScript.cs" />
      <Compile Include="Assets\puntosArcoTexto.cs" />
      <Compile Include="Assets\puntosDiana.cs" />
      <Compile Include="Assets\puntuacionBaloncesto.cs" />
