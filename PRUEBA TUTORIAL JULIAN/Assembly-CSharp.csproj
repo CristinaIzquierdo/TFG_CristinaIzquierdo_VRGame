@@ -51,6 +51,7 @@
      <Compile Include="Assets\KeepScore.cs" />
      <Compile Include="Assets\LineRendererSettings.cs" />
      <Compile Include="Assets\ScoreCollision.cs" />
+     <Compile Include="Assets\UIManager.cs" />
      <Compile Include="Assets\VRKeys\Scripts\BackspaceKey.cs" />
      <Compile Include="Assets\VRKeys\Scripts\CancelKey.cs" />
      <Compile Include="Assets\VRKeys\Scripts\ClearKey.cs" />
@@ -284,29 +285,29 @@
  <Reference Include="UnityEditor">
  <HintPath>F:/Unity/2019.3.8f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
- <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="Firebase.App">
  <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Platform">
- <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Tasks">
- <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
- </Reference>
- <Reference Include="Google.MiniJson">
- <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
  <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Compat">
- <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ <Reference Include="Firebase.Platform">
+ <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.TaskExtension">
  <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Valve.Newtonsoft.Json">
+ <HintPath>F:/recursosVR/projectosYaHechos/BowlingVR/VRBowling-master/PRUEBA TUTORIAL JULIAN/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>F:/Unity/2019.3.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
