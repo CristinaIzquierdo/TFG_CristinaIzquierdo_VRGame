@@ -6,87 +6,41 @@ using TMPro;
 public class cuentaAtras : MonoBehaviour
 {
 
-    // public static int Tiempo = 20;
-    // private TextMeshProUGUI textMeshPro;
+     public static float Tiempo = 60;
+     private TextMeshProUGUI textMeshPro;
+      public GameObject teleportPointVerPuntos = null;
+     public Vector3 destination = new Vector3(-13,0,-18); //assign it from inspector or code
+
+   //  float currentTime = 0f;
+   //  float startingTime = 50f;
 
 
     // // Start is called before the first frame update
-    // void Start()
-    // {
-    //     textMeshPro = GetComponent<TMPro.TextMeshProUGUI>();
-    // }
-
-    // // Update is called once per frame
-    // void Update()
-    // {
-    //     if(Tiempo > 0) {
-    //        Tiempo = Tiempo - 1;
-    //        Debug.Log(Tiempo);
-    //        textMeshPro.text = "Tiempo: " + Tiempo.ToString();
-
-    //     }
-    // }
-
-    private static int minutes;
-    private static int seconds;
-
-    //private int m,s;
-
-    private static int m = 100;
-    private static int s = 10;
- private TextMeshProUGUI textMeshPro;
     void Start()
     {
         textMeshPro = GetComponent<TMPro.TextMeshProUGUI>();
-         writeTimer(m,s);
+       // currentTime = startingTime
     }
 
-     void Update()
+    // // Update is called once per frame
+    void Update()
     {
-                 updateTimer();
-
-    }
-
-    public void startTimer(){
-        writeTimer(m,s);
-        //invo("updateTimer", 1f);
-        updateTimer();
-
-
-    } 
-
-     public void stopTimer(){
-        
-        
-    } 
-
-     private void updateTimer(){
-         s--;
-         if(s < 0){
-             //endGame  
-         } else {
-             m--;
-             s = 59;
-         }
-
-         writeTimer(m,s);
-         // Inkove("updateTimer", 1f);
-
-        
-    } 
-
-    private void writeTimer(int m, int s){
-
-        if (s<10){
-             textMeshPro.text = m.ToString()+ ":0" +s.ToString();
+        if(Tiempo > 0) {
+           Tiempo -= 1 * Time.deltaTime;
+         //  Debug.Log(Tiempo);
+           textMeshPro.text = "Tiempo: " + Tiempo.ToString();
 
         } else {
-            textMeshPro.text = m.ToString()+ ":" +s.ToString();
-
+           // Debug.Log("Tiempo terminado, teletransportando player!");
+            //Move object
+            textMeshPro.text = "Tiempo: 0";
+            teleportPointVerPuntos.transform.position = destination;
 
         }
-
-
     }
+
+
+
+   
 
 }
