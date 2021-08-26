@@ -58,6 +58,7 @@
      <Compile Include="Assets\puntosArcoTexto.cs" />
      <Compile Include="Assets\puntosDiana.cs" />
      <Compile Include="Assets\puntuacionBaloncesto.cs" />
+     <Compile Include="Assets\puntuacionTotalJuegos.cs" />
      <Compile Include="Assets\scoreBaloncesto.cs" />
      <Compile Include="Assets\scoreDianaTrigger.cs" />
      <Compile Include="Assets\scoreScript.cs" />
