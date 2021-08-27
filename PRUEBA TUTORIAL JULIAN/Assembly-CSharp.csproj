@@ -47,11 +47,25 @@
   <ItemGroup>
      <Compile Include="Assets\Bowling Kegel &amp; Ball\Resources\Materials\PRUEBA BOWLING\bowling-master 1\Bowling\Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Bowling Kegel &amp; Ball\Resources\Materials\PRUEBA BOWLING\bowling-master 1\Bowling\Assets\Scripts\MainCamera.cs" />
-     <Compile Include="Assets\HighscoreTable.cs" />
+     <Compile Include="Assets\HighscoreTable\HighscoreTable.cs" />
      <Compile Include="Assets\KeepScore.cs" />
      <Compile Include="Assets\LineRendererSettings.cs" />
      <Compile Include="Assets\ScoreCollision.cs" />
      <Compile Include="Assets\UIManager.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Assets.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\Button_Sprite.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\Button_UI.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionPeriodic.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionTimer.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionUpdater.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Bar.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_BarMultiple.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Sprite.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_TextComplex.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UtilsClass.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Bar.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Mesh.cs" />
+     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Sprite.cs" />
      <Compile Include="Assets\bolosScore.cs" />
      <Compile Include="Assets\changeSceneScript.cs" />
      <Compile Include="Assets\cuentaAtras.cs" />
