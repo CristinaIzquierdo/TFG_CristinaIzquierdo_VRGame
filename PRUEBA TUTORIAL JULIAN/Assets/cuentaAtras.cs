@@ -6,7 +6,7 @@ using TMPro;
 public class cuentaAtras : MonoBehaviour
 {
 
-     public static float Tiempo = 60;
+     public static float Tiempo = 180;
      private TextMeshProUGUI textMeshPro;
      public GameObject teleportPointVerPuntos = null;
      public Vector3 destination = new Vector3(-11,0,-15); //assign it from inspector or code

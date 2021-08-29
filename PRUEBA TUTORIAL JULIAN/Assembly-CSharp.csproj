@@ -74,6 +74,7 @@
      <Compile Include="Assets\cambiarCanvas.cs" />
      <Compile Include="Assets\cargarAvatar1.cs" />
      <Compile Include="Assets\changeSceneScript.cs" />
+     <Compile Include="Assets\closeGame.cs" />
      <Compile Include="Assets\cuentaAtras.cs" />
      <Compile Include="Assets\dianaScore.cs" />
      <Compile Include="Assets\getName.cs" />
