@@ -9,7 +9,7 @@ public class cuentaAtras : MonoBehaviour
      public static float Tiempo = 60;
      private TextMeshProUGUI textMeshPro;
      public GameObject teleportPointVerPuntos = null;
-     public Vector3 destination = new Vector3(-13,0,-18); //assign it from inspector or code
+     public Vector3 destination = new Vector3(-11,0,-15); //assign it from inspector or code
 
    //  float currentTime = 0f;
    //  float startingTime = 50f;
