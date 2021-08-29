@@ -5,13 +5,13 @@ using UnityEngine;
 public class cambiarCanvas : MonoBehaviour
 {
 
-public GameObject cambiarMalo;
-public GameObject canvasBueno;
+public GameObject primerCanvas;
+public GameObject segundoCanvas;
 
    public void btn_changeCanvas()
    {
-       cambiarMalo.gameObject.SetActive(false);
-       canvasBueno.gameObject.SetActive(true);
+       primerCanvas.gameObject.SetActive(false);
+       segundoCanvas.gameObject.SetActive(true);
 
    }
 }

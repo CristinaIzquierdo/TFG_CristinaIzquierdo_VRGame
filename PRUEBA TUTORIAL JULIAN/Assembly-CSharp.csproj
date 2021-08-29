@@ -68,6 +68,7 @@
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\World_Sprite.cs" />
      <Compile Include="Assets\bolosScore.cs" />
      <Compile Include="Assets\cambiarCanvas.cs" />
+     <Compile Include="Assets\cargarAvatar1.cs" />
      <Compile Include="Assets\changeSceneScript.cs" />
      <Compile Include="Assets\cuentaAtras.cs" />
      <Compile Include="Assets\dianaScore.cs" />
